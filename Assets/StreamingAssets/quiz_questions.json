@@ -1,0 +1,32 @@
+[
+  {
+    "question": "Where should you throw old newspapers?",
+    "answers": ["Plastic bin", "Paper bin", "Glass bin"],
+    "correctAnswerIndex": 1,
+    "category": "Paper"
+  },
+  {
+    "question": "Where do plastic bottles go?",
+    "answers": ["Glass bin", "Plastic bin", "Organic bin"],
+    "correctAnswerIndex": 1,
+    "category": "Plastic"
+  },
+  {
+    "question": "Banana peels should go in the...",
+    "answers": ["Paper bin", "Glass bin", "Organic bin"],
+    "correctAnswerIndex": 2,
+    "category": "Organic"
+  },
+  {
+    "question": "Where should empty soda cans go?",
+    "answers": ["Aluminum bin", "Plastic bin", "Glass bin"],
+    "correctAnswerIndex": 0,
+    "category": "Aluminum"
+  },
+  {
+    "question": "Where do broken glass bottles go?",
+    "answers": ["Glass bin", "Paper bin", "Organic bin"],
+    "correctAnswerIndex": 0,
+    "category": "Glass"
+  }
+]

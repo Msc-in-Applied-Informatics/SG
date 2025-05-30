@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: 8969a4f5526e506489a5b80c4f0ba96d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2054335166578472748
+    second: '@Square-Magenta-Idle_0'
+  - first:
+      213: -4283532452947311202
+    second: '@Square-Magenta-Idle_1'
+  - first:
+      213: 1707725930432594246
+    second: '@Square-Magenta-Idle_2'
+  - first:
+      213: -1484270568725989005
+    second: '@Square-Magenta-Idle_3'
+  - first:
+      213: 3856753611265642178
+    second: '@Square-Magenta-Idle_4'
+  - first:
+      213: -8277356897915443679
+    second: '@Square-Magenta-Idle_5'
+  - first:
+      213: -8437745357974124527
+    second: '@Square-Magenta-Idle_6'
+  - first:
+      213: 2950122121585135526
+    second: '@Square-Magenta-Idle_7'
+  - first:
+      213: 1427959678808701450
+    second: '@Square-Magenta-Idle_8'
+  - first:
+      213: -276554634526573624
+    second: '@Square-Magenta-Idle_9'
+  - first:
+      213: -371279686360512880
+    second: '@Square-Magenta-Idle_10'
+  - first:
+      213: 3706308972728707763
+    second: '@Square-Magenta-Idle_11'
+  - first:
+      213: 8864694139949971701
+    second: '@Square-Magenta-Idle_12'
+  - first:
+      213: 3815388892351219928
+    second: '@Square-Magenta-Idle_13'
+  - first:
+      213: -6585846798377006983
+    second: '@Square-Magenta-Idle_14'
+  - first:
+      213: -7284034166597981958
+    second: '@Square-Magenta-Idle_15'
+  - first:
+      213: -7053882025238179196
+    second: '@Square-Magenta-Idle_16'
+  - first:
+      213: 4909600860904478465
+    second: '@Square-Magenta-Idle_17'
+  - first:
+      213: 5607051048271678235
+    second: '@Square-Magenta-Idle_18'
+  - first:
+      213: -8653619903232559612
+    second: '@Square-Magenta-Idle_19'
+  - first:
+      213: 3412403971080023411
+    second: '@Square-Magenta-Idle_20'
+  - first:
+      213: -9124776498236541629
+    second: '@Square-Magenta-Idle_21'
+  - first:
+      213: 134601798280758424
+    second: '@Square-Magenta-Idle_22'
+  - first:
+      213: -8558599687534256279
+    second: '@Square-Magenta-Idle_23'
+  - first:
+      213: -175448828089526643
+    second: '@Square-Magenta-Idle_24'
+  - first:
+      213: -7751259530068277911
+    second: '@Square-Magenta-Idle_25'
+  - first:
+      213: 5480317350837401437
+    second: '@Square-Magenta-Idle_26'
+  - first:
+      213: -1889443395060790430
+    second: '@Square-Magenta-Idle_27'
+  - first:
+      213: 5246284039387042344
+    second: '@Square-Magenta-Idle_28'
+  - first:
+      213: -4911256989032922700
+    second: '@Square-Magenta-Idle_29'
+  - first:
+      213: -3164350701988338718
+    second: '@Square-Magenta-Idle_30'
+  - first:
+      213: 6784179701439361574
+    second: '@Square-Magenta-Idle_31'
+  - first:
+      213: 4735189061933420395
+    second: '@Square-Magenta-Idle_32'
+  - first:
+      213: 8886318489293163541
+    second: '@Square-Magenta-Idle_33'
+  - first:
+      213: 1010284434842602158
+    second: '@Square-Magenta-Idle_34'
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_0'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 647
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d84f72ec098d73e0800000000000000
+      internalID: -2054335166578472748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_1'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 539
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95c73edde5dd84c0800000000000000
+      internalID: -4283532452947311202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_2'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 539
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64188219faf03b710800000000000000
+      internalID: 1707725930432594246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_3'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 539
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379358028cfc66be0800000000000000
+      internalID: -1484270568725989005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_4'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 539
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce81b9b9f0f58530800000000000000
+      internalID: 3856753611265642178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_5'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 539
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126ee94b1cbe02d80800000000000000
+      internalID: -8277356897915443679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_6'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 539
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11840c05d4b17ea80800000000000000
+      internalID: -8437745357974124527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_7'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af8a1d6070f0f820800000000000000
+      internalID: 2950122121585135526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_8'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 431
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a39f023c121d310800000000000000
+      internalID: 1427959678808701450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_9'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 431
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb3e00760b792cf0800000000000000
+      internalID: -276554634526573624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_10'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 431
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096c926a713f8daf0800000000000000
+      internalID: -371279686360512880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_11'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 431
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba6653bf547f6330800000000000000
+      internalID: 3706308972728707763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_12'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 431
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f874366a58b50b70800000000000000
+      internalID: 8864694139949971701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_13'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 323
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8c0989bfbf2f430800000000000000
+      internalID: 3815388892351219928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_14'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 323
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978489dea3f5a94a0800000000000000
+      internalID: -6585846798377006983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_15'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 323
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af86e189489e9ea90800000000000000
+      internalID: -7284034166597981958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_16'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 323
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4825a2ecba39b1e90800000000000000
+      internalID: -7053882025238179196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_17'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 323
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107d92788f7622440800000000000000
+      internalID: 4909600860904478465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_18'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 323
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b07b1983f30dd40800000000000000
+      internalID: 5607051048271678235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_19'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 215
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406b29efb8a28e780800000000000000
+      internalID: -8653619903232559612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_20'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 215
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d6b5ef45b4b5f20800000000000000
+      internalID: 3412403971080023411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_21'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 215
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34537c7be184e5180800000000000000
+      internalID: -9124776498236541629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_22'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 215
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89447a45f933ed100800000000000000
+      internalID: 134601798280758424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_23'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 215
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f50c9fdeeb93980800000000000000
+      internalID: -8558599687534256279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_24'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 215
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86177d683ea09df0800000000000000
+      internalID: -175448828089526643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_25'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9654b6c768efd6490800000000000000
+      internalID: -7751259530068277911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_26'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 107
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57b219389ffd0c40800000000000000
+      internalID: 5480317350837401437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_27'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 107
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b813e2e3957c5e0800000000000000
+      internalID: -1889443395060790430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_28'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 107
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822577ea98b8ec840800000000000000
+      internalID: 5246284039387042344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_29'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 107
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1c9081ac5b7dbb0800000000000000
+      internalID: -4911256989032922700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_30'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 107
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e32a3f4dc7f514d0800000000000000
+      internalID: -3164350701988338718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_31'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62275bc8e7f362e50800000000000000
+      internalID: 6784179701439361574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_32'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f4bdc1d55c6b140800000000000000
+      internalID: 4735189061933420395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_33'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c0e43959b825b70800000000000000
+      internalID: 8886318489293163541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Idle_34'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa46ec3750450e00800000000000000
+      internalID: 1010284434842602158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      '@Square-Magenta-Idle_0': -2054335166578472748
+      '@Square-Magenta-Idle_1': -4283532452947311202
+      '@Square-Magenta-Idle_10': -371279686360512880
+      '@Square-Magenta-Idle_11': 3706308972728707763
+      '@Square-Magenta-Idle_12': 8864694139949971701
+      '@Square-Magenta-Idle_13': 3815388892351219928
+      '@Square-Magenta-Idle_14': -6585846798377006983
+      '@Square-Magenta-Idle_15': -7284034166597981958
+      '@Square-Magenta-Idle_16': -7053882025238179196
+      '@Square-Magenta-Idle_17': 4909600860904478465
+      '@Square-Magenta-Idle_18': 5607051048271678235
+      '@Square-Magenta-Idle_19': -8653619903232559612
+      '@Square-Magenta-Idle_2': 1707725930432594246
+      '@Square-Magenta-Idle_20': 3412403971080023411
+      '@Square-Magenta-Idle_21': -9124776498236541629
+      '@Square-Magenta-Idle_22': 134601798280758424
+      '@Square-Magenta-Idle_23': -8558599687534256279
+      '@Square-Magenta-Idle_24': -175448828089526643
+      '@Square-Magenta-Idle_25': -7751259530068277911
+      '@Square-Magenta-Idle_26': 5480317350837401437
+      '@Square-Magenta-Idle_27': -1889443395060790430
+      '@Square-Magenta-Idle_28': 5246284039387042344
+      '@Square-Magenta-Idle_29': -4911256989032922700
+      '@Square-Magenta-Idle_3': -1484270568725989005
+      '@Square-Magenta-Idle_30': -3164350701988338718
+      '@Square-Magenta-Idle_31': 6784179701439361574
+      '@Square-Magenta-Idle_32': 4735189061933420395
+      '@Square-Magenta-Idle_33': 8886318489293163541
+      '@Square-Magenta-Idle_34': 1010284434842602158
+      '@Square-Magenta-Idle_4': 3856753611265642178
+      '@Square-Magenta-Idle_5': -8277356897915443679
+      '@Square-Magenta-Idle_6': -8437745357974124527
+      '@Square-Magenta-Idle_7': 2950122121585135526
+      '@Square-Magenta-Idle_8': 1427959678808701450
+      '@Square-Magenta-Idle_9': -276554634526573624
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: 71d2b683fb5e2504186c27728c419cc9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5308942737238349039
+    second: '@Square-Magenta-Click_0'
+  - first:
+      213: -328537030620286657
+    second: '@Square-Magenta-Click_1'
+  - first:
+      213: -5496224469844544690
+    second: '@Square-Magenta-Click_2'
+  - first:
+      213: -6825398378136459786
+    second: '@Square-Magenta-Click_3'
+  - first:
+      213: -8358235726694499402
+    second: '@Square-Magenta-Click_4'
+  - first:
+      213: -8033612105392146144
+    second: '@Square-Magenta-Click_5'
+  - first:
+      213: -4766229498974635071
+    second: '@Square-Magenta-Click_6'
+  - first:
+      213: -8858935586813450056
+    second: '@Square-Magenta-Click_7'
+  - first:
+      213: 3967423693754245434
+    second: '@Square-Magenta-Click_8'
+  - first:
+      213: -316466554793885811
+    second: '@Square-Magenta-Click_9'
+  - first:
+      213: -3231780059593131537
+    second: '@Square-Magenta-Click_10'
+  - first:
+      213: -4381099789549738504
+    second: '@Square-Magenta-Click_11'
+  - first:
+      213: 5380749132496975348
+    second: '@Square-Magenta-Click_12'
+  - first:
+      213: -134856365118171949
+    second: '@Square-Magenta-Click_13'
+  - first:
+      213: -58894391722916435
+    second: '@Square-Magenta-Click_14'
+  - first:
+      213: -2786966736875530871
+    second: '@Square-Magenta-Click_15'
+  - first:
+      213: -262540387368447908
+    second: '@Square-Magenta-Click_16'
+  - first:
+      213: -709361865662753654
+    second: '@Square-Magenta-Click_17'
+  - first:
+      213: -3218805848358625924
+    second: '@Square-Magenta-Click_18'
+  - first:
+      213: -5749756463411071213
+    second: '@Square-Magenta-Click_19'
+  - first:
+      213: 3809166782850878474
+    second: '@Square-Magenta-Click_20'
+  - first:
+      213: -2813427408736304069
+    second: '@Square-Magenta-Click_21'
+  - first:
+      213: -3833962662749571770
+    second: '@Square-Magenta-Click_22'
+  - first:
+      213: 1300368496019924540
+    second: '@Square-Magenta-Click_23'
+  - first:
+      213: -6306917175205122753
+    second: '@Square-Magenta-Click_24'
+  - first:
+      213: -8972142468183761004
+    second: '@Square-Magenta-Click_25'
+  - first:
+      213: 6984648327000302564
+    second: '@Square-Magenta-Click_26'
+  - first:
+      213: -4467720150943979869
+    second: '@Square-Magenta-Click_27'
+  - first:
+      213: 1019160305576845421
+    second: '@Square-Magenta-Click_28'
+  - first:
+      213: 3516403895418550183
+    second: '@Square-Magenta-Click_29'
+  - first:
+      213: -3015690230098270202
+    second: '@Square-Magenta-Click_30'
+  - first:
+      213: 3753078363064576896
+    second: '@Square-Magenta-Click_31'
+  - first:
+      213: -473063745881679476
+    second: '@Square-Magenta-Click_32'
+  - first:
+      213: -4270435993507965636
+    second: '@Square-Magenta-Click_33'
+  - first:
+      213: -3109473606815261345
+    second: '@Square-Magenta-Click_34'
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_0'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 647
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ba40e55b8d256b0800000000000000
+      internalID: -5308942737238349039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_1'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 539
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31f052bf4dc07bf0800000000000000
+      internalID: -328537030620286657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_2'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 539
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e433b1507fc79b3b0800000000000000
+      internalID: -5496224469844544690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_3'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 539
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f526ac66505741a0800000000000000
+      internalID: -6825398378136459786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_4'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 539
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb3561f3e4910c80800000000000000
+      internalID: -8358235726694499402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_5'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 539
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029b2d2aa50e28090800000000000000
+      internalID: -8033612105392146144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_6'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 539
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbf0a3f583faddb0800000000000000
+      internalID: -4766229498974635071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_7'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8eaeb350dbe0580800000000000000
+      internalID: -8858935586813450056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_8'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 431
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31a0b344de1f0730800000000000000
+      internalID: 3967423693754245434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_9'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 431
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ff73a585fab9bf0800000000000000
+      internalID: -316466554793885811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_10'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 431
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9b2c398296623d0800000000000000
+      internalID: -3231780059593131537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_11'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 431
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5695614f43333c0800000000000000
+      internalID: -4381099789549738504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_12'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 431
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f539fbd3d24caa40800000000000000
+      internalID: 5380749132496975348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_13'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 323
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d45e65b9d4e02ef0800000000000000
+      internalID: -134856365118171949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_14'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 323
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5c71edcd3ce2ff0800000000000000
+      internalID: -58894391722916435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_15'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 323
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98554bfc484b259d0800000000000000
+      internalID: -2786966736875530871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_16'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 323
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50d5bf98e44b5cf0800000000000000
+      internalID: -262540387368447908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_17'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 323
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8496fb3427d726f0800000000000000
+      internalID: -709361865662753654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_18'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 323
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d52a782218453d0800000000000000
+      internalID: -3218805848358625924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_19'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 215
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3177065c5f2c430b0800000000000000
+      internalID: -5749756463411071213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_20'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 215
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c4b06d101ecd430800000000000000
+      internalID: 3809166782850878474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_21'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 215
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34ccec8da2b4f8d0800000000000000
+      internalID: -2813427408736304069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_22'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 215
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64573bc75470bcac0800000000000000
+      internalID: -3833962662749571770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_23'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 215
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36606ae146db0210800000000000000
+      internalID: 1300368496019924540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_24'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 215
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3da610ae345978a0800000000000000
+      internalID: -6306917175205122753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_25'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fd5bd26fb8c7380800000000000000
+      internalID: -8972142468183761004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_26'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 107
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e321eba5a47ee060800000000000000
+      internalID: 6984648327000302564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_27'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 107
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6212791387ff1c0800000000000000
+      internalID: -4467720150943979869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_28'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 107
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60261fe5e8c42e00800000000000000
+      internalID: 1019160305576845421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_29'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 107
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7f83156b6ccc030800000000000000
+      internalID: 3516403895418550183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_30'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 107
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608606aa6bd1626d0800000000000000
+      internalID: -3015690230098270202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_31'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b2ba4f2ec951430800000000000000
+      internalID: 3753078363064576896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_32'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 74
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c895b9e87075f69f0800000000000000
+      internalID: -473063745881679476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_33'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 74
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c355ae2f61d5cb4c0800000000000000
+      internalID: -4270435993507965636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Magenta-Click_34'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 74
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5dd253ba3ee8d4d0800000000000000
+      internalID: -3109473606815261345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      '@Square-Magenta-Click_0': -5308942737238349039
+      '@Square-Magenta-Click_1': -328537030620286657
+      '@Square-Magenta-Click_10': -3231780059593131537
+      '@Square-Magenta-Click_11': -4381099789549738504
+      '@Square-Magenta-Click_12': 5380749132496975348
+      '@Square-Magenta-Click_13': -134856365118171949
+      '@Square-Magenta-Click_14': -58894391722916435
+      '@Square-Magenta-Click_15': -2786966736875530871
+      '@Square-Magenta-Click_16': -262540387368447908
+      '@Square-Magenta-Click_17': -709361865662753654
+      '@Square-Magenta-Click_18': -3218805848358625924
+      '@Square-Magenta-Click_19': -5749756463411071213
+      '@Square-Magenta-Click_2': -5496224469844544690
+      '@Square-Magenta-Click_20': 3809166782850878474
+      '@Square-Magenta-Click_21': -2813427408736304069
+      '@Square-Magenta-Click_22': -3833962662749571770
+      '@Square-Magenta-Click_23': 1300368496019924540
+      '@Square-Magenta-Click_24': -6306917175205122753
+      '@Square-Magenta-Click_25': -8972142468183761004
+      '@Square-Magenta-Click_26': 6984648327000302564
+      '@Square-Magenta-Click_27': -4467720150943979869
+      '@Square-Magenta-Click_28': 1019160305576845421
+      '@Square-Magenta-Click_29': 3516403895418550183
+      '@Square-Magenta-Click_3': -6825398378136459786
+      '@Square-Magenta-Click_30': -3015690230098270202
+      '@Square-Magenta-Click_31': 3753078363064576896
+      '@Square-Magenta-Click_32': -473063745881679476
+      '@Square-Magenta-Click_33': -4270435993507965636
+      '@Square-Magenta-Click_34': -3109473606815261345
+      '@Square-Magenta-Click_4': -8358235726694499402
+      '@Square-Magenta-Click_5': -8033612105392146144
+      '@Square-Magenta-Click_6': -4766229498974635071
+      '@Square-Magenta-Click_7': -8858935586813450056
+      '@Square-Magenta-Click_8': 3967423693754245434
+      '@Square-Magenta-Click_9': -316466554793885811
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

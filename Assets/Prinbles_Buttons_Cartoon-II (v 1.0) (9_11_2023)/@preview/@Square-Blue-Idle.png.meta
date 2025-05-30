@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: 4ade328b819e958419d98a09a00cfb93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2757521280417220654
+    second: '@Square-Blue-Idle_0'
+  - first:
+      213: -5198908384864649914
+    second: '@Square-Blue-Idle_1'
+  - first:
+      213: -5322474488245098315
+    second: '@Square-Blue-Idle_2'
+  - first:
+      213: 8043920720215360575
+    second: '@Square-Blue-Idle_3'
+  - first:
+      213: -8162116890072105723
+    second: '@Square-Blue-Idle_4'
+  - first:
+      213: -8361941764485502074
+    second: '@Square-Blue-Idle_5'
+  - first:
+      213: 1370428286937206647
+    second: '@Square-Blue-Idle_6'
+  - first:
+      213: 8373699754853078665
+    second: '@Square-Blue-Idle_7'
+  - first:
+      213: -912947823488389710
+    second: '@Square-Blue-Idle_8'
+  - first:
+      213: 7268605728207555503
+    second: '@Square-Blue-Idle_9'
+  - first:
+      213: 8975977545341487489
+    second: '@Square-Blue-Idle_10'
+  - first:
+      213: -3350850443634012762
+    second: '@Square-Blue-Idle_11'
+  - first:
+      213: 4131318768914159637
+    second: '@Square-Blue-Idle_12'
+  - first:
+      213: -2569762257500109365
+    second: '@Square-Blue-Idle_13'
+  - first:
+      213: -1089005519758389100
+    second: '@Square-Blue-Idle_14'
+  - first:
+      213: -5608368171126810948
+    second: '@Square-Blue-Idle_15'
+  - first:
+      213: 5623795361689603988
+    second: '@Square-Blue-Idle_16'
+  - first:
+      213: -8543903013455342963
+    second: '@Square-Blue-Idle_17'
+  - first:
+      213: 6405742130993088471
+    second: '@Square-Blue-Idle_18'
+  - first:
+      213: -3464646828185062125
+    second: '@Square-Blue-Idle_19'
+  - first:
+      213: -3989388707766930461
+    second: '@Square-Blue-Idle_20'
+  - first:
+      213: -6473935728942026527
+    second: '@Square-Blue-Idle_21'
+  - first:
+      213: 3988318360264026087
+    second: '@Square-Blue-Idle_22'
+  - first:
+      213: 884128953010608938
+    second: '@Square-Blue-Idle_23'
+  - first:
+      213: 2208784363636990376
+    second: '@Square-Blue-Idle_24'
+  - first:
+      213: 4271468247697174006
+    second: '@Square-Blue-Idle_25'
+  - first:
+      213: -6477677560105038127
+    second: '@Square-Blue-Idle_26'
+  - first:
+      213: -5974751118165538530
+    second: '@Square-Blue-Idle_27'
+  - first:
+      213: 6521974496006836846
+    second: '@Square-Blue-Idle_28'
+  - first:
+      213: -8912279749433869137
+    second: '@Square-Blue-Idle_29'
+  - first:
+      213: 5083631875225557025
+    second: '@Square-Blue-Idle_30'
+  - first:
+      213: -740918591785936769
+    second: '@Square-Blue-Idle_31'
+  - first:
+      213: -5064021525184575923
+    second: '@Square-Blue-Idle_32'
+  - first:
+      213: 6647837092031731051
+    second: '@Square-Blue-Idle_33'
+  - first:
+      213: -2183118345482774154
+    second: '@Square-Blue-Idle_34'
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_0'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 647
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2849db9efea44620800000000000000
+      internalID: 2757521280417220654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_1'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 539
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64db7547e54c9d7b0800000000000000
+      internalID: -5198908384864649914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_2'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 539
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8621217a5c226b0800000000000000
+      internalID: -5322474488245098315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_3'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 539
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3447d9c64fb1af60800000000000000
+      internalID: 8043920720215360575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_4'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 539
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d3908eee55abe80800000000000000
+      internalID: -8162116890072105723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_5'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 539
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ba657c44a64fb80800000000000000
+      internalID: -8361941764485502074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_6'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 539
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f0a01244db40310800000000000000
+      internalID: 1370428286937206647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_7'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9861bcfaf8b553470800000000000000
+      internalID: 8373699754853078665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_8'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 431
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd2282aace8453f0800000000000000
+      internalID: -912947823488389710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_9'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 431
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab4e2a26664fd460800000000000000
+      internalID: 7268605728207555503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_10'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 431
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18946fd4504119c70800000000000000
+      internalID: 8975977545341487489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_11'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 431
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad0cbb66436f71d0800000000000000
+      internalID: -3350850443634012762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_12'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 431
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518580b1884655930800000000000000
+      internalID: 4131318768914159637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_13'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 323
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5008c87de565cd0800000000000000
+      internalID: -2569762257500109365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_14'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 323
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4909c54ef3313e0f0800000000000000
+      internalID: -1089005519758389100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_15'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 323
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6116edcd21b22b0800000000000000
+      internalID: -5608368171126810948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_16'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 323
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f8ff6d51cbb0e40800000000000000
+      internalID: 5623795361689603988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_17'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 323
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82da9f0a75fd6980800000000000000
+      internalID: -8543903013455342963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_18'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 323
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7c8907784c5e850800000000000000
+      internalID: 6405742130993088471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_19'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 215
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31578d5f01a1befc0800000000000000
+      internalID: -3464646828185062125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_20'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 215
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3f8926b18d2a8c0800000000000000
+      internalID: -3989388707766930461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_21'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 215
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e073b141c5f726a0800000000000000
+      internalID: -6473935728942026527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_22'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 215
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7a4baea6a595730800000000000000
+      internalID: 3988318360264026087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_23'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 215
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2bd5d3399e054c00800000000000000
+      internalID: 884128953010608938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_24'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 215
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a125041dad27ae10800000000000000
+      internalID: 2208784363636990376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_25'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fda9557dbd474b30800000000000000
+      internalID: 4271468247697174006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_26'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 107
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de8b6c449aaa16a0800000000000000
+      internalID: -6477677560105038127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_27'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 107
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19006c738b651da0800000000000000
+      internalID: -5974751118165538530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_28'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 107
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6215accf35b28a50800000000000000
+      internalID: 6521974496006836846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_29'
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 107
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac361489c8315480800000000000000
+      internalID: -8912279749433869137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_30'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 107
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1281cab9140bc8640800000000000000
+      internalID: 5083631875225557025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_31'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78dd11677ab7b5f0800000000000000
+      internalID: -740918591785936769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_32'
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d460170d04bf8b9b0800000000000000
+      internalID: -5064021525184575923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_33'
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65973b0d9cd14c50800000000000000
+      internalID: 6647837092031731051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@Square-Blue-Idle_34'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6795cd27e6104b1e0800000000000000
+      internalID: -2183118345482774154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      '@Square-Blue-Idle_0': 2757521280417220654
+      '@Square-Blue-Idle_1': -5198908384864649914
+      '@Square-Blue-Idle_10': 8975977545341487489
+      '@Square-Blue-Idle_11': -3350850443634012762
+      '@Square-Blue-Idle_12': 4131318768914159637
+      '@Square-Blue-Idle_13': -2569762257500109365
+      '@Square-Blue-Idle_14': -1089005519758389100
+      '@Square-Blue-Idle_15': -5608368171126810948
+      '@Square-Blue-Idle_16': 5623795361689603988
+      '@Square-Blue-Idle_17': -8543903013455342963
+      '@Square-Blue-Idle_18': 6405742130993088471
+      '@Square-Blue-Idle_19': -3464646828185062125
+      '@Square-Blue-Idle_2': -5322474488245098315
+      '@Square-Blue-Idle_20': -3989388707766930461
+      '@Square-Blue-Idle_21': -6473935728942026527
+      '@Square-Blue-Idle_22': 3988318360264026087
+      '@Square-Blue-Idle_23': 884128953010608938
+      '@Square-Blue-Idle_24': 2208784363636990376
+      '@Square-Blue-Idle_25': 4271468247697174006
+      '@Square-Blue-Idle_26': -6477677560105038127
+      '@Square-Blue-Idle_27': -5974751118165538530
+      '@Square-Blue-Idle_28': 6521974496006836846
+      '@Square-Blue-Idle_29': -8912279749433869137
+      '@Square-Blue-Idle_3': 8043920720215360575
+      '@Square-Blue-Idle_30': 5083631875225557025
+      '@Square-Blue-Idle_31': -740918591785936769
+      '@Square-Blue-Idle_32': -5064021525184575923
+      '@Square-Blue-Idle_33': 6647837092031731051
+      '@Square-Blue-Idle_34': -2183118345482774154
+      '@Square-Blue-Idle_4': -8162116890072105723
+      '@Square-Blue-Idle_5': -8361941764485502074
+      '@Square-Blue-Idle_6': 1370428286937206647
+      '@Square-Blue-Idle_7': 8373699754853078665
+      '@Square-Blue-Idle_8': -912947823488389710
+      '@Square-Blue-Idle_9': 7268605728207555503
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
