@@ -11,6 +11,9 @@ public class Bin : MonoBehaviour
     public Sprite glassSprite;
     public Sprite aluminumSprite;
     public Sprite organicSprite;
+    public Sprite electricSprite;
+    public Sprite batterySprite;
+    public Sprite noRecycleSprite;
 
     private SpriteRenderer spriteRenderer;
 
@@ -30,7 +33,7 @@ public class Bin : MonoBehaviour
         TrashItem item = collision.GetComponent<TrashItem>();
         if (item != null)
         {
-            Debug.Log(item.trashType + " - " + acceptedType);
+            //Debug.Log(item.trashType + " - " + acceptedType);
 
             if (item.trashType == acceptedType)
             {
@@ -38,7 +41,7 @@ public class Bin : MonoBehaviour
             }
             else
             {
-                GameManager.Instance.LoseLife();
+                GameManager.Instance.OnWrongTrashCollected(); 
             }
 
             Destroy(item.gameObject);
@@ -67,15 +70,20 @@ public class Bin : MonoBehaviour
             case TrashItem.TrashType.Organic:
                 spriteRenderer.sprite = organicSprite;
                 break;
+            case TrashItem.TrashType.Electronics:
+                spriteRenderer.sprite = electricSprite;
+                break;
+            case TrashItem.TrashType.Battery:
+                spriteRenderer.sprite = batterySprite;
+                break;
             default:
-                spriteRenderer.sprite = paperSprite;
+                spriteRenderer.sprite = noRecycleSprite;
                 break;
         }
     }
 
     public void SetBinColor(int level)
     {
-        // (προαιρετικά) αλλαγή χρώματος στο sprite αν θες να δώσεις έμφαση
         Color color = Color.white;
 
         switch (level)

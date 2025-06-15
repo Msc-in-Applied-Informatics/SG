@@ -1,32 +1,492 @@
 [
   {
     "question": "Where should you throw old newspapers?",
-    "answers": ["Plastic bin", "Paper bin", "Glass bin"],
+    "answers": [
+      "Plastic bin",
+      "Paper bin",
+      "Glass bin"
+    ],
     "correctAnswerIndex": 1,
     "category": "Paper"
   },
   {
-    "question": "Where do plastic bottles go?",
-    "answers": ["Glass bin", "Plastic bin", "Organic bin"],
+    "question": "Where do magazines belong?",
+    "answers": [
+      "Organic bin",
+      "Plastic bin",
+      "Paper bin"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Paper"
+  },
+  {
+    "question": "Receipts go in the...",
+    "answers": [
+      "Battery bin",
+      "Paper bin",
+      "Metal bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Paper"
+  },
+  {
+    "question": "Where should you throw old newspapers?",
+    "answers": [
+      "Plastic bin",
+      "Paper bin",
+      "Glass bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Paper"
+  },
+  {
+    "question": "Receipts go in the...",
+    "answers": [
+      "Battery bin",
+      "Paper bin",
+      "Metal bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Paper"
+  },
+  {
+    "question": "Receipts go in the...",
+    "answers": [
+      "Battery bin",
+      "Paper bin",
+      "Metal bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Paper"
+  },
+  {
+    "question": "Where should you throw old newspapers?",
+    "answers": [
+      "Plastic bin",
+      "Paper bin",
+      "Glass bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Paper"
+  },
+  {
+    "question": "Plastic packaging should go in the...",
+    "answers": [
+      "Paper bin",
+      "Plastic bin",
+      "Metal bin"
+    ],
     "correctAnswerIndex": 1,
     "category": "Plastic"
   },
   {
+    "question": "Where do yogurt containers go?",
+    "answers": [
+      "Plastic bin",
+      "Glass bin",
+      "Battery bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Plastic"
+  },
+  {
+    "question": "Where do yogurt containers go?",
+    "answers": [
+      "Plastic bin",
+      "Glass bin",
+      "Battery bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Plastic"
+  },
+  {
+    "question": "Where do plastic bottles go?",
+    "answers": [
+      "Glass bin",
+      "Plastic bin",
+      "Organic bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Plastic"
+  },
+  {
+    "question": "Where do yogurt containers go?",
+    "answers": [
+      "Plastic bin",
+      "Glass bin",
+      "Battery bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Plastic"
+  },
+  {
+    "question": "Plastic packaging should go in the...",
+    "answers": [
+      "Paper bin",
+      "Plastic bin",
+      "Metal bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Plastic"
+  },
+  {
+    "question": "Where do plastic bottles go?",
+    "answers": [
+      "Glass bin",
+      "Plastic bin",
+      "Organic bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Plastic"
+  },
+  {
+    "question": "Coffee grounds belong in the...",
+    "answers": [
+      "Battery bin",
+      "Organic bin",
+      "Glass bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Organic"
+  },
+  {
+    "question": "Coffee grounds belong in the...",
+    "answers": [
+      "Battery bin",
+      "Organic bin",
+      "Glass bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Organic"
+  },
+  {
+    "question": "Leftover food should go in the...",
+    "answers": [
+      "Organic bin",
+      "Plastic bin",
+      "Metal bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Organic"
+  },
+  {
+    "question": "Coffee grounds belong in the...",
+    "answers": [
+      "Battery bin",
+      "Organic bin",
+      "Glass bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Organic"
+  },
+  {
     "question": "Banana peels should go in the...",
-    "answers": ["Paper bin", "Glass bin", "Organic bin"],
+    "answers": [
+      "Paper bin",
+      "Glass bin",
+      "Organic bin"
+    ],
     "correctAnswerIndex": 2,
     "category": "Organic"
   },
   {
+    "question": "Leftover food should go in the...",
+    "answers": [
+      "Organic bin",
+      "Plastic bin",
+      "Metal bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Organic"
+  },
+  {
+    "question": "Coffee grounds belong in the...",
+    "answers": [
+      "Battery bin",
+      "Organic bin",
+      "Glass bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Organic"
+  },
+  {
+    "question": "Where do used batteries go?",
+    "answers": [
+      "Plastic bin",
+      "Glass bin",
+      "Battery bin"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Battery"
+  },
+  {
+    "question": "Where do used batteries go?",
+    "answers": [
+      "Plastic bin",
+      "Glass bin",
+      "Battery bin"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Battery"
+  },
+  {
+    "question": "What bin should AA batteries go in?",
+    "answers": [
+      "Organic bin",
+      "Battery bin",
+      "Metal bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Battery"
+  },
+  {
+    "question": "What bin should AA batteries go in?",
+    "answers": [
+      "Organic bin",
+      "Battery bin",
+      "Metal bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Battery"
+  },
+  {
+    "question": "Where do used batteries go?",
+    "answers": [
+      "Plastic bin",
+      "Glass bin",
+      "Battery bin"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Battery"
+  },
+  {
+    "question": "Phone batteries go to the...",
+    "answers": [
+      "Battery bin",
+      "Glass bin",
+      "Paper bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Battery"
+  },
+  {
+    "question": "Where do used batteries go?",
+    "answers": [
+      "Plastic bin",
+      "Glass bin",
+      "Battery bin"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Battery"
+  },
+  {
+    "question": "Where should old phones be thrown?",
+    "answers": [
+      "Electronics bin",
+      "Glass bin",
+      "Organic bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Electronics"
+  },
+  {
+    "question": "Where should old phones be thrown?",
+    "answers": [
+      "Electronics bin",
+      "Glass bin",
+      "Organic bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Electronics"
+  },
+  {
+    "question": "Broken TVs go to the...",
+    "answers": [
+      "Paper bin",
+      "Electronics bin",
+      "Plastic bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Electronics"
+  },
+  {
+    "question": "Where should old phones be thrown?",
+    "answers": [
+      "Electronics bin",
+      "Glass bin",
+      "Organic bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Electronics"
+  },
+  {
+    "question": "Laptops should be recycled in the...",
+    "answers": [
+      "Electronics bin",
+      "Metal bin",
+      "Battery bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Electronics"
+  },
+  {
+    "question": "Laptops should be recycled in the...",
+    "answers": [
+      "Electronics bin",
+      "Metal bin",
+      "Battery bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Electronics"
+  },
+  {
+    "question": "Laptops should be recycled in the...",
+    "answers": [
+      "Electronics bin",
+      "Metal bin",
+      "Battery bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Electronics"
+  },
+  {
+    "question": "Where do beer cans belong?",
+    "answers": [
+      "Plastic bin",
+      "Aluminum bin",
+      "Battery bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Aluminum"
+  },
+  {
+    "question": "Aluminum foil goes to the...",
+    "answers": [
+      "Organic bin",
+      "Glass bin",
+      "Aluminum bin"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Aluminum"
+  },
+  {
     "question": "Where should empty soda cans go?",
-    "answers": ["Aluminum bin", "Plastic bin", "Glass bin"],
+    "answers": [
+      "Aluminum bin",
+      "Plastic bin",
+      "Glass bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Aluminum"
+  },
+  {
+    "question": "Where should empty soda cans go?",
+    "answers": [
+      "Aluminum bin",
+      "Plastic bin",
+      "Glass bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Aluminum"
+  },
+  {
+    "question": "Where should empty soda cans go?",
+    "answers": [
+      "Aluminum bin",
+      "Plastic bin",
+      "Glass bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Aluminum"
+  },
+  {
+    "question": "Where do beer cans belong?",
+    "answers": [
+      "Plastic bin",
+      "Aluminum bin",
+      "Battery bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Aluminum"
+  },
+  {
+    "question": "Where should empty soda cans go?",
+    "answers": [
+      "Aluminum bin",
+      "Plastic bin",
+      "Glass bin"
+    ],
     "correctAnswerIndex": 0,
     "category": "Aluminum"
   },
   {
     "question": "Where do broken glass bottles go?",
-    "answers": ["Glass bin", "Paper bin", "Organic bin"],
+    "answers": [
+      "Glass bin",
+      "Paper bin",
+      "Organic bin"
+    ],
     "correctAnswerIndex": 0,
+    "category": "Glass"
+  },
+  {
+    "question": "Wine bottles should be thrown in the...",
+    "answers": [
+      "Glass bin",
+      "Plastic bin",
+      "Battery bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Glass"
+  },
+  {
+    "question": "Where does a glass jar go?",
+    "answers": [
+      "Plastic bin",
+      "Glass bin",
+      "Organic bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Glass"
+  },
+  {
+    "question": "Where does a glass jar go?",
+    "answers": [
+      "Plastic bin",
+      "Glass bin",
+      "Organic bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Glass"
+  },
+  {
+    "question": "Where do broken glass bottles go?",
+    "answers": [
+      "Glass bin",
+      "Paper bin",
+      "Organic bin"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Glass"
+  },
+  {
+    "question": "Where does a glass jar go?",
+    "answers": [
+      "Plastic bin",
+      "Glass bin",
+      "Organic bin"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Glass"
+  },
+  {
+    "question": "Where does a glass jar go?",
+    "answers": [
+      "Plastic bin",
+      "Glass bin",
+      "Organic bin"
+    ],
+    "correctAnswerIndex": 1,
     "category": "Glass"
   }
 ]

@@ -1,4 +1,4 @@
-using System.Collections;
+ο»Ώusing System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,54 +7,75 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    private int correctTrashCollected = 0;
+    [Header("Settings & References")]
     public LevelSettingsDatabase settingsDatabase;
-    private LevelSettings currentLevelSettings;
+    public LevelSettings currentLevelSettings;
+    public GameObject bin;
+    public QuizManager quizManager;
 
-
-    public int score = 0;
-    public int lives = 4;
-    public int level = 1;
-    public int stars = 0;
-    public int points = 10;
-    public bool isQuizActive = false;
-
-
+    [Header("UI")]
+    public Text timerText;
+    public Text scoreText;
+    public Text livesText;
+    public GameObject levelCompletePopup;
+    public LevelCompleteUIController levelCompleteUI;
+    public GameObject gameOverPanel;
+    public GameObject gameMenuPanel;
     public Image[] heartImages;
     public Sprite fullHeart;
     public Sprite emptyHeart;
-
     public Image[] armorIcons;
     public Sprite fullArmorSprite;
     public Sprite emptyArmorSprite;
 
-    public GameObject levelCompletePopup;
-    public LevelCompleteUIController levelCompleteUI;
+    [Header("Trash Progress UI")]
+    public Slider trashProgressSlider;
+    public Image trashTypeIcon;
+    public Sprite paperIcon, plasticIcon, glassIcon, aluminumIcon, organicIcon, electricIcon, battery;
+    public Text counterTotalTrash;
 
-    public GameObject bin;
+    [Header("Gameplay Values")]
+    public int score = 0;
+    public int lives = 3;
+    public int level = 1;
+    public int stars = 0;
+    public int points = 10;
 
-    public Text scoreText;
-    public Text livesText;
+    [Header("Wait for Regen Life")]
+    public Text lifeTimerText;
+    public Button retryButton;
+    public GameObject gameTimeRegenLifePanel;
+    private bool waitingForLife = false;
 
-    private int currentArmor = 2;
+    [Header("End Game")]
+    public GameObject youWinPanel;
 
-    [Header("Quiz Reference")]
-    public QuizManager quizManager; // Ανέθεσέ το από το Inspector
+    private int currentArmor = 0;
+    private int correctTrashCollected = 0;
+    private int wrongTrashCollected = 0;
+    private int totalTrashSpawned = 0;
+    private int totalCorrectTrashSpawned = 0;
+    private float timeRemaining;
+    private bool isTimerRunning = false;
+    private bool gameIsOver = false;
+    public bool isQuizActive = false;
+    private bool shouldShowQuizAfterLevelComplete = false;
+    //private bool isRetryingLevel = false;
 
     void Awake()
     {
-        if (Instance == null)
-            Instance = this;
-        else
-            Destroy(gameObject);
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
+
+        GameStateManager.Instance.OnGameStateChanged += OnGameStateChanged;
     }
 
     void Start()
     {
+        AudioManager.Instance.PlayMusic(AudioManager.Instance.backgroundMusicClip);
+        if (!CheckLifeRegen()) return;
         level = SaveSystem.CurrentLevel;
         currentLevelSettings = settingsDatabase.GetSettings(level);
-
-        Debug.Log($"Level {currentLevelSettings} requires {currentLevelSettings.requiredTrash} trash.");
         StartCoroutine(InitializeAfterFrame());
     }
 
@@ -64,108 +85,277 @@ public class GameManager : MonoBehaviour
         SetLevel(level);
     }
 
-    // --- LEVEL FLOW ---
-
-    public void OnLevelCompleted()
+    void Update()
     {
-        Time.timeScale = 0f;
-        //Set Stats in Pop up (dialog)
-        int starsEarned = CalculateStars();
-        levelCompleteUI.SetStats(level, score, starsEarned);
-        //Save the stars
-        SaveSystem.SaveStars(level, starsEarned);
-
-        levelCompletePopup.SetActive(true);
-    }
-
-    public int CalculateStars()
-    {
-        if (lives == 3)
-            return 3;
-        else if (lives == 2)
-            return 2;
-        else if (lives == 1)
-            return 1;
-        else
-            return 0;
-    }
-
-    public void StartNextLevel()
-    {
-        levelCompletePopup?.SetActive(false);
-
-
-
-        level++;
-
-        if (quizManager != null)
-        {          
-            quizManager.ShowQuestionForCurrentLevel(); // Το Quiz θα καλέσει ContinueGame() μετά
-            Time.timeScale = 1f;
-        }
-        else
+        if (isTimerRunning && !isQuizActive && !waitingForLife)
         {
-            GameManager.Instance.isQuizActive = false;
-            ContinueGame();
+            timeRemaining -= Time.deltaTime;
+            UpdateTimerUI();
+
+            if (timeRemaining <= 0)
+            {
+                timeRemaining = 0;
+                isTimerRunning = false;
+                GameOver();
+            }
         }
+
+        ChangeLifeTimer();
     }
 
-    public void ContinueGame()
+    void OnDestroy()
     {
-        quizManager.EnableAllAnswerButtons();
-        currentLevelSettings = settingsDatabase.GetSettings(level);
+        GameStateManager.Instance.OnGameStateChanged -= OnGameStateChanged;
+    }
+
+    private void OnGameStateChanged(GameState newState)
+    {
+        isTimerRunning = (newState == GameState.Gameplay);
+        if (gameMenuPanel != null && !gameIsOver)
+            gameMenuPanel.SetActive(newState == GameState.Paused);
+    }
+
+    public void PlayPause(bool start, string mode)
+    {
+        GameState current = GameStateManager.Instance.CurrentGameState;
+        GameState target = mode == "Sleep"
+            ? GameState.Sleep
+            : start ? GameState.Gameplay : (current == GameState.Gameplay ? GameState.Paused : GameState.Gameplay);
+
+        GameStateManager.Instance.SetState(target);
+        isTimerRunning = (target == GameState.Gameplay);
+    }
+
+    public void SetLevel(int newLevel)
+    {   
+        level = newLevel;
+        SaveSystem.CurrentLevel = level;
+
+        //lives = SaveSystem.GetLives(level);
+        lives = SaveSystem.GetGlobalLives();
+        score = 0;
+        currentArmor = SaveSystem.GetGlobalArmor();
+        stars = SaveSystem.GetStars(level);
         SetupLevel();
     }
 
     public void SetupLevel()
     {
-        SaveSystem.CurrentLevel = level;
-        Debug.Log("Starting Level " + level);
-
-        // Φέρνουμε τα σωστά settings από τη βάση
         currentLevelSettings = settingsDatabase.GetSettings(level);
         if (currentLevelSettings == null)
         {
             Debug.LogError($"LevelSettings not found for level {level}");
             return;
         }
+        lives = SaveSystem.GetGlobalLives();
 
         correctTrashCollected = 0;
+        wrongTrashCollected = 0;
+        totalTrashSpawned = 0;
+        totalCorrectTrashSpawned = 0;
+        //if (!isRetryingLevel)
+        //    SetupBalancedStats();
 
         SetBinType(currentLevelSettings.correctTrashType);
-        ResetArmor();
-        UpdateUI();
+        UpdateTrashIcon(currentLevelSettings.correctTrashType);
+
+        trashProgressSlider.maxValue = currentLevelSettings.requiredTrash;
+        trashProgressSlider.value = 0;
+        counterTotalTrash.text = currentLevelSettings.requiredTrash.ToString();
+
+        timeRemaining = currentLevelSettings.maxTime;
+        isTimerRunning = true;
+        shouldShowQuizAfterLevelComplete = false;
         Time.timeScale = 1f;
+        PlayPause(true, "");
+
+        UpdateUI();
+        //isRetryingLevel = false;
     }
 
-    public void SetLevel(int newLevel)
+    void SetupBalancedStats()
     {
-        level = newLevel;
-        SaveSystem.CurrentLevel = level;
+        if (level <= 5) { lives = 3; }
+        else if (level <= 10) { lives = 3; }
+        else if (level <= 15) { lives = 2; }
+        else { lives = 2;}
+    }
 
-        lives = SaveSystem.GetLives(0);
-        score = SaveSystem.GetScore(level);
-        stars = SaveSystem.GetStars(level);
+    public void ContinueGame()
+    {
+        level++;
 
+        if (level > 20)
+        {
+            ShowYouWin();
+            return;
+        }
+
+        score = 0;
+        quizManager?.EnableAllAnswerButtons();
         SetupLevel();
     }
 
-    // --- SCORE + LIVES ---
-
-    public void AddScore(int amount)
+    public void ShowYouWin()
     {
-        score += amount;
+        isTimerRunning = false;
+        PlayPause(false, "Sleep");
+        Time.timeScale = 0f;
+        AudioManager.Instance.PlaySound(AudioManager.Instance.victoryClip);
+        if (youWinPanel != null)
+            youWinPanel.SetActive(true);
+    }
 
-        if (score >= level * points)
+    public void RetryLevel()
+    {
+        //isRetryingLevel = true;
+        if (!CheckLifeRegen()) return;
+        gameIsOver = false;
+        Time.timeScale = 1f;
+        gameOverPanel?.SetActive(false);
+        ResetGame();
+    }
+
+    public void ResetGame()
+    {
+        score = 0;
+        SetupLevel();
+        levelCompletePopup?.SetActive(false);
+        shouldShowQuizAfterLevelComplete = false;
+    }
+
+    public void StartNextLevel()
+    {
+        levelCompletePopup?.SetActive(false);
+
+        if (shouldShowQuizAfterLevelComplete && quizManager != null)
         {
-            //score = 0;
-            OnLevelCompleted(); // Εμφάνιση popup
-            GameManager.Instance.isQuizActive = true;
-            // Optionally Show Quiz
-            Invoke(nameof(ShowQuiz), 0.5f);
+            shouldShowQuizAfterLevelComplete = false;
+            quizManager.ShowQuestionForCurrentLevel();
+            Time.timeScale = 1f;
         }
+        else
+        {
+            isQuizActive = false;
+            ContinueGame();
+        }
+    }
+
+    public void GoToMainMenu()
+    {
+        AudioManager.Instance.StopMusic();
+        gameTimeRegenLifePanel.gameObject.SetActive(false);
+        Time.timeScale = 1f;
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+        PlayPause(false, "");
+    }
+
+    public void Logout()
+    {
+        gameTimeRegenLifePanel.gameObject.SetActive(false);
+        Time.timeScale = 1f;
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Login");
+        PlayPause(false, "");
+    }
+
+    public void OnLevelCompleted()
+    {
+        //Play sound
+        AudioManager.Instance.PlaySound(AudioManager.Instance.levelCompleteClip);
+
+        isTimerRunning = false;
+        Time.timeScale = 0f;
+        PlayPause(false, "Sleep");
+
+        int starsEarned = CalculateStars();
+        levelCompleteUI.SetStats(level, score, starsEarned);
+        SaveSystem.SaveStars(level, starsEarned);
+        levelCompletePopup.SetActive(true);
+        shouldShowQuizAfterLevelComplete = true;
+    }
+
+    public int CalculateStars()
+    {
+        if (totalCorrectTrashSpawned == 0) return 0;
+
+        int missedCorrect = totalCorrectTrashSpawned - correctTrashCollected;
+        int totalConsidered = correctTrashCollected + wrongTrashCollected + missedCorrect;
+
+        float accuracy = (float)correctTrashCollected / totalConsidered;
+
+        Debug.Log($"Correct: {correctTrashCollected}, Wrong: {wrongTrashCollected}, Missed: {missedCorrect}, Total: {totalConsidered}, Accuracy: {accuracy}");
+
+        if (accuracy >= 0.85f) return 3;
+        else if (accuracy >= 0.60f) return 2;
+        else if (accuracy >= 0.35f) return 1;
+        else return 0;
+    }
+
+    void GameOver()
+    {
+        //Play Sound
+        AudioManager.Instance.PlaySound(AudioManager.Instance.gameOverClip);
+
+        SaveSystem.SaveGlobalArmor(currentArmor);
+        isTimerRunning = false;
+        gameIsOver = true;
+        timerText.text = "Time: 00:00";
+        PlayPause(false, "");
+        if(CheckLifeRegen())
+            gameOverPanel?.SetActive(true);
+    }
+
+    public void OnTrashSpawned(TrashItem.TrashType spawnedType)
+    {
+        totalTrashSpawned++;
+
+        if (spawnedType == currentLevelSettings.correctTrashType)
+        {
+            totalCorrectTrashSpawned++;
+        }
+    }
+
+    public void OnCorrectTrashCollected()
+    {
+        correctTrashCollected++;
+        score += 10;
+        trashProgressSlider.value = correctTrashCollected;
+        //Play sound
+        AudioManager.Instance.PlaySound(AudioManager.Instance.trashCollectedClip);
+
+        if (correctTrashCollected >= currentLevelSettings.requiredTrash)
+            OnLevelCompleted();
 
         UpdateUI();
+    }
+
+    public void OnWrongTrashCollected()
+    {
+        wrongTrashCollected++;
+        AudioManager.Instance.PlaySound(AudioManager.Instance.wrongTrashCollectedClip);
+        LoseLife();
+        UpdateUI();
+    }
+
+    public void SetBinType(TrashItem.TrashType type)
+    {
+        Bin binScript = bin.GetComponent<Bin>();
+        if (binScript != null)
+            binScript.SetBinType(type);
+    }
+
+    void UpdateTrashIcon(TrashItem.TrashType type)
+    {
+        switch (type)
+        {
+            case TrashItem.TrashType.Paper: trashTypeIcon.sprite = paperIcon; break;
+            case TrashItem.TrashType.Plastic: trashTypeIcon.sprite = plasticIcon; break;
+            case TrashItem.TrashType.Glass: trashTypeIcon.sprite = glassIcon; break;
+            case TrashItem.TrashType.Aluminum: trashTypeIcon.sprite = aluminumIcon; break;
+            case TrashItem.TrashType.Organic: trashTypeIcon.sprite = organicIcon; break;
+            case TrashItem.TrashType.Electronics: trashTypeIcon.sprite = electricIcon; break;
+            case TrashItem.TrashType.Battery: trashTypeIcon.sprite = battery; break;
+        }
     }
 
     public void LoseLife()
@@ -173,15 +363,25 @@ public class GameManager : MonoBehaviour
         if (currentArmor > 0)
         {
             currentArmor--;
+            SaveSystem.SaveGlobalArmor(currentArmor);
             UpdateArmorUI();
             return;
         }
 
         lives--;
-
+        //Play sound
+        //AudioManager.Instance.PlaySound(AudioManager.Instance.lifeLostClip);
         if (lives <= 0)
         {
+            lives = 0;
+            SaveSystem.SaveGlobalLives(lives);
+
+            // Ξ‘Ο€ΞΏΞΈΞ®ΞΊΞµΟ…ΟƒΞ· Ο‡ΟΟΞ½ΞΏΟ… Ο€ΞΏΟ… ΞΌΟ€ΞΏΟΞµΞ― Ξ½Ξ± ΞΎΞ±Ξ½Ξ±Ο€Ξ±Ξ―ΞΎΞµΞΉ (5 Ξ»ΞµΟ€Ο„Ξ¬ Ξ±ΟΞ³ΟΟ„ΞµΟΞ±)
+            System.DateTime regenTime = System.DateTime.Now.AddMinutes(5);
+            SaveSystem.SaveNextLifeRegenTime(regenTime);
+
             GameOver();
+            return;
         }
 
         UpdateUI();
@@ -196,60 +396,25 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void ResetGame()
+    public void GrantArmor()
     {
-        if(level == 1)
+        if (currentArmor < armorIcons.Length)
         {
-            score = 0;
-            lives = 4;
-            level = 1;
-        } 
-        else 
-        {
-            score = (level - 1) * 50;
-        }
-        ResetArmor();
-        SetupLevel();
-        levelCompletePopup?.SetActive(false);
-    }
-
-    void GameOver()
-    {
-        Debug.Log("Game Over!");
-        // TODO: Game Over UI ή reset
-    }
-
-    // --- BIN / LEVEL LOGIC ---
-
-    public void SetBinType(TrashItem.TrashType type)
-    {
-        Bin binScript = bin.GetComponent<Bin>();
-        if (binScript == null) return;
-
-        binScript.SetBinType(type);
-    }
-
-    TrashItem.TrashType GetTrashTypeForCurrentLevel()
-    {
-        switch (level)
-        {
-            case 1: return TrashItem.TrashType.Paper;
-            case 2: return TrashItem.TrashType.Plastic;
-            case 3: return TrashItem.TrashType.Glass;
-            case 4: return TrashItem.TrashType.Aluminum;
-            case 5: return TrashItem.TrashType.Organic;
-            default:
-                return (TrashItem.TrashType)Random.Range(0, 5);
+            currentArmor++;
+            SaveSystem.SaveGlobalArmor(currentArmor);
+            UpdateArmorUI();
         }
     }
 
-    // --- UI ---
+    public void ResetArmor()
+    {
+        UpdateArmorUI();
+    }
 
     void UpdateUI()
     {
         scoreText.text = "Score: " + score;
         livesText.text = "Lives: " + lives;
-
         UpdateHearts();
         UpdateArmorUI();
     }
@@ -262,7 +427,8 @@ public class GameManager : MonoBehaviour
         }
 
         SaveSystem.SaveScore(level, score);
-        SaveSystem.SaveLives(level, lives);
+        SaveSystem.SaveGlobalLives(lives);
+        //SaveSystem.SaveLives(level, lives);
     }
 
     void UpdateArmorUI()
@@ -273,44 +439,63 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void ResetArmor()
+    void UpdateTimerUI()
     {
-        currentArmor = 2;
-        UpdateArmorUI();
+        int minutes = Mathf.FloorToInt(timeRemaining / 60);
+        int seconds = Mathf.FloorToInt(timeRemaining % 60);
+        timerText.text = $"Time: {minutes:00}:{seconds:00}";
     }
 
-    void ShowQuiz()
+    public void RegenAndStart()
     {
-        if (quizManager != null)
-        {
-            PlayPause();
+        gameTimeRegenLifePanel.gameObject.SetActive(false);
+        SetLevel(level);
+    }
 
-            quizManager.ShowQuestionForCurrentLevel();
+    // Check Life 
+    bool CheckLifeRegen()
+    {
+        if (SaveSystem.GetGlobalLives() > 0)
+        {
+            return true;
+        }
+
+        System.DateTime regenTime = SaveSystem.GetNextLifeRegenTime();
+
+        if (System.DateTime.Now >= regenTime){
+            SaveSystem.SaveGlobalLives(3);
+            gameTimeRegenLifePanel.gameObject.SetActive(false);
+            retryButton.interactable = true;
+            return true;
+        }
+        else{
+            waitingForLife = true;
+            isTimerRunning = false;
+            //Time.timeScale = 0f;
+            PlayPause(false, "Sleep");
+            retryButton.interactable = false;
+            gameTimeRegenLifePanel.gameObject.SetActive(true);
+            return false;
         }
     }
 
-    public void PlayPause()
+    void ChangeLifeTimer()
     {
-        GameState currentGameState = GameStateManager.Instance.CurrentGameState;
-        GameState newGameState = currentGameState == GameState.Gameplay
-            ? GameState.Paused
-            : GameState.Gameplay;
-
-        GameStateManager.Instance.SetState(newGameState);
-    }
-
-    public void OnCorrectTrashCollected()
-    {
-        correctTrashCollected++;
-        score += 10;
-
-        if (correctTrashCollected >= currentLevelSettings.requiredTrash)
+        if (waitingForLife)
         {
-            OnLevelCompleted();
-            isQuizActive = true;
-            Invoke(nameof(ShowQuiz), 0.5f);
-        }
+            System.TimeSpan remaining = SaveSystem.GetNextLifeRegenTime() - System.DateTime.Now;
 
-        UpdateUI();
+            if (remaining.TotalSeconds <= 0)
+            {
+                SaveSystem.SaveGlobalLives(3);
+                waitingForLife = false;
+                //lifeTimerText.gameObject.SetActive(false);
+                retryButton.interactable = true;
+            }
+            else
+            {
+                lifeTimerText.text = $"Next lives in {remaining.Minutes:00}:{remaining.Seconds:00}";
+            }
+        }
     }
 }

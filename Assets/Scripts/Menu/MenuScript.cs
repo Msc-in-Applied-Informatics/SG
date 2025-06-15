@@ -33,7 +33,8 @@ public class MenuScript : MonoBehaviour
     
     public void QuitGame()
     {
-        Application.Quit();
+        //Application.Quit();
+        SceneManager.LoadSceneAsync(SceneEnum.Login.ToString());
     }
 
     public void OpenStory()

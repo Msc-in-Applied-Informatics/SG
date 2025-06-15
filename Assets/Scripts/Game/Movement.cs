@@ -21,16 +21,13 @@ public class Movement : MonoBehaviour
     {
         if (GameManager.Instance != null && GameManager.Instance.isQuizActive)
             return;
-        // Παίρνουμε την είσοδο του χρήστη για την κίνηση του κάδου (π.χ. πλήκτρα A/D ή βελάκια)
-        float moveInput = Input.GetAxis("Horizontal"); // Αυτό το Input παίρνει τις εντολές για κίνηση αριστερά/δεξιά
+        float moveInput = Input.GetAxis("Horizontal"); 
 
-        // Υπολογίζουμε την νέα θέση του κάδου με βάση το Input και την ταχύτητα
         Vector3 newPosition = transform.position + Vector3.right * moveInput * moveSpeed * Time.deltaTime;
 
-        // Διασφαλίζουμε ότι ο κάδος δεν θα ξεπεράσει τα όρια (Boundary)
         newPosition.x = Mathf.Clamp(newPosition.x, -boundaryX, boundaryX);
 
-        // Εφαρμόζουμε την νέα θέση στον κάδο
+
         transform.position = newPosition;
     }
 

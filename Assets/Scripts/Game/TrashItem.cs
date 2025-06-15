@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class TrashItem : MonoBehaviour
 {
-    public enum TrashType { Paper, Plastic, Glass, Aluminum, Organic, NonRecyclable }
+    public enum TrashType { Paper, Plastic, Glass, Aluminum, Organic, Electronics, Battery, NonRecyclable };
     public TrashType trashType;
 
     public float fallSpeed = 2f;
@@ -27,10 +27,9 @@ public class TrashItem : MonoBehaviour
         }
     }
 
-    // Θα προσθέσουμε μία συνάρτηση για την αλληλεπίδραση με τους κάδους
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Collision with: " + other.name);
+        //Debug.Log("Collision with: " + other.name);
 
         if (other.CompareTag("Bin"))
         {
@@ -39,16 +38,16 @@ public class TrashItem : MonoBehaviour
             Bin bin = other.GetComponent<Bin>();
             if (bin != null)
             {
-                Debug.Log("Bin script found, comparing trash types");
+                //Debug.Log("Bin script found, comparing trash types");
 
                 if (bin.acceptedType == trashType)
                 {
-                    Debug.Log("Correct bin! Destroying trash.");
+                    //Debug.Log("Correct bin! Destroying trash.");
                     Destroy(gameObject);
                 }
                 else
                 {
-                    Debug.Log("Wrong bin! Destroying trash.");
+                    //Debug.Log("Wrong bin! Destroying trash.");
                     //GameManager.Instance.LoseLife();
                     Destroy(gameObject);
                 }

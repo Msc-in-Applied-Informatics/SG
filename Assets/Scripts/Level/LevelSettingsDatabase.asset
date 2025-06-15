@@ -15,17 +15,121 @@ MonoBehaviour:
   levels:
   - level: 1
     requiredTrash: 5
-    maxTime: 0
+    maxTime: 60
     correctTrashType: 0
   - level: 2
     requiredTrash: 5
-    maxTime: 0
+    maxTime: 60
     correctTrashType: 1
   - level: 3
     requiredTrash: 5
-    maxTime: 0
+    maxTime: 55
     correctTrashType: 2
-  - level: 1
+  - level: 4
     requiredTrash: 5
-    maxTime: 0
+    maxTime: 55
     correctTrashType: 3
+  - level: 5
+    requiredTrash: 5
+    maxTime: 50
+    correctTrashType: 4
+  - level: 6
+    requiredTrash: 10
+    maxTime: 50
+    correctTrashType: 5
+  - level: 7
+    requiredTrash: 11
+    maxTime: 48
+    correctTrashType: 6
+  - level: 8
+    requiredTrash: 12
+    maxTime: 46
+    correctTrashType: 0
+  - level: 9
+    requiredTrash: 13
+    maxTime: 45
+    correctTrashType: 1
+  - level: 10
+    requiredTrash: 14
+    maxTime: 44
+    correctTrashType: 2
+  - level: 11
+    requiredTrash: 15
+    maxTime: 43
+    correctTrashType: 3
+  - level: 12
+    requiredTrash: 16
+    maxTime: 42
+    correctTrashType: 4
+  - level: 13
+    requiredTrash: 17
+    maxTime: 41
+    correctTrashType: 5
+  - level: 14
+    requiredTrash: 18
+    maxTime: 40
+    correctTrashType: 6
+  - level: 15
+    requiredTrash: 19
+    maxTime: 39
+    correctTrashType: 0
+  - level: 16
+    requiredTrash: 20
+    maxTime: 38
+    correctTrashType: 1
+  - level: 17
+    requiredTrash: 21
+    maxTime: 45
+    correctTrashType: 2
+  - level: 18
+    requiredTrash: 22
+    maxTime: 45
+    correctTrashType: 3
+  - level: 19
+    requiredTrash: 23
+    maxTime: 45
+    correctTrashType: 4
+  - level: 20
+    requiredTrash: 24
+    maxTime: 45
+    correctTrashType: 5
+  - level: 21
+    requiredTrash: 5
+    maxTime: 40
+    correctTrashType: 6
+  - level: 22
+    requiredTrash: 5
+    maxTime: 40
+    correctTrashType: 4
+  - level: 23
+    requiredTrash: 5
+    maxTime: 40
+    correctTrashType: 0
+  - level: 24
+    requiredTrash: 5
+    maxTime: 40
+    correctTrashType: 1
+  - level: 25
+    requiredTrash: 5
+    maxTime: 40
+    correctTrashType: 2
+  - level: 26
+    requiredTrash: 5
+    maxTime: 40
+    correctTrashType: 3
+  - level: 27
+    requiredTrash: 5
+    maxTime: 40
+    correctTrashType: 4
+  - level: 28
+    requiredTrash: 5
+    maxTime: 40
+    correctTrashType: 5
+  - level: 29
+    requiredTrash: 5
+    maxTime: 40
+    correctTrashType: 6
+  - level: 30
+    requiredTrash: 5
+    maxTime: 40
+    correctTrashType: 0

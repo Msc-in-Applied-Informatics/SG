@@ -18,7 +18,7 @@ public class LoginManager : MonoBehaviour
 
         if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
         {
-            errorText.text = "Συμπλήρωσε όλα τα πεδία!";
+            errorText.text = "Complete the fields!";
             return;
         }
 
@@ -36,7 +36,7 @@ public class LoginManager : MonoBehaviour
             }
             else
             {
-                errorText.text = "Λάθος κωδικός!";
+                errorText.text = "Wrong password!";
             }
         }
         else
@@ -44,7 +44,7 @@ public class LoginManager : MonoBehaviour
             // Δημιουργία νέου χρήστη
             PlayerPrefs.SetString(userKey, password);
             PlayerPrefs.SetString("CurrentUser", username);
-            errorText.text = "Νέος χρήστης δημιουργήθηκε!";
+            errorText.text = "New user created!";
             SceneManager.LoadScene("MainMenu");
         }
     }
@@ -53,6 +53,11 @@ public class LoginManager : MonoBehaviour
     {
         //Reset Saved data
         SaveSystem.ClearAllData();
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
     }
 }
 

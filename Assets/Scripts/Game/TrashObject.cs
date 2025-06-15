@@ -5,7 +5,7 @@ public class TrashObject : MonoBehaviour
     void Awake()
     {
         GameStateManager.Instance.OnGameStateChanged += OnGameStateChanged;
-        OnGameStateChanged(GameStateManager.Instance.CurrentGameState); // ’μεση εφαρμογή
+        OnGameStateChanged(GameStateManager.Instance.CurrentGameState);  
     }
 
     void OnDestroy()
@@ -16,11 +16,6 @@ public class TrashObject : MonoBehaviour
 
     private void OnGameStateChanged(GameState newState)
     {
-        // Σημείωση: Δεν μπορείς να κάνεις SetActive(false) στον εαυτό σου από μέσα σου.
-        // Πρέπει να ελέγχεις από έξω (π.χ. από manager ή parent).
-
-        // Λύση: κάνε απλά ενεργοποίηση/απενεργοποίηση κάποιου child, renderer ή συμπεριφοράς.
-        // Εδώ κάνουμε disable τα scripts ή renderers
 
         bool isActive = (newState == GameState.Gameplay);
 
